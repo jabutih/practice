@@ -47,3 +47,5 @@ int main(void)
     // != - different
 
 // variables
+
+    // when declaring variables, define their type → int numero = 4
