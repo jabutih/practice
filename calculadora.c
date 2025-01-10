@@ -20,4 +20,7 @@ int main(void)
     else if (strcmp(operador, "*") == 0) {
         printf("O resultado é %i\n", primeiro * segundo);
     }
+    else {
+        printf("O operador inserido é inválido.\n");
+    }
 }
