@@ -5,7 +5,7 @@
 int main(void)
 {
     while (true) {
-            float primeiro = get_float("Insira um valor:");
+    float primeiro = get_float("Insira um valor:");
     string operador = get_string("Insira um operador (+, -, /, *):");
     float segundo = get_float("Insira outro valor:");
 
