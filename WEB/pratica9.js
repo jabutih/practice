@@ -1,10 +1,12 @@
 const campo1 = document.querySelector("#valor1");
 const campo2 = document.querySelector("#valor2");
 const seletor = document.querySelector("#operacao");
-const botao = document.querySelector("#botao");
 let resposta = document.querySelector("#resposta");
 
-botao.addEventListener("click", calcular);
+seletor.addEventListener("change", calcular);
+
+campo1.addEventListener("keyup", calcular);
+campo2.addEventListener("keyup", calcular);
 
 function calcular() {
     const valor1 = parseInt(campo1.value);
@@ -12,17 +14,22 @@ function calcular() {
 
     const operacao = seletor.value;
 
-    if (operacao === "somar") {
-        resposta.innerHTML = valor1 + valor2;
-    }
-    if (operacao === "subtrair") {
-        resposta.innerHTML = valor1 - valor2;
-    }
-    if (operacao === "dividir") {
-        resposta.innerHTML = valor1 / valor2;
-    }
-    if (operacao === "multiplicar") {
-        resposta.innerHTML = valor1 * valor2;
+    if (campo1.value === '' || campo2.value === '') {
+        resposta.innerHTML="Preencha os campos, por favor.";
     }
 
+    else {
+        if (operacao === "somar") {
+            resposta.innerHTML = valor1 + valor2;
+        }
+        if (operacao === "subtrair") {
+            resposta.innerHTML = valor1 - valor2;
+        }
+        if (operacao === "dividir") {
+            resposta.innerHTML = valor1 / valor2;
+        }
+        if (operacao === "multiplicar") {
+            resposta.innerHTML = valor1 * valor2;
+        }
+    }
 }
