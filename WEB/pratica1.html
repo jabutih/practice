@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papa's Pizzaria</title>
+</head>
+
+<body>
+    <h1>Peça sua pizza!</h1>
+
+    <form method="post" action="teste.jsp">
+        Nome completo: <input type="text" name="nomeCompleto" /> <br />
+        Seu e-mail: <input type="email" name="email" /> <br />
+        Tamanho da pizza:
+        <input type="radio" name="tamanho" value="g" /> Grande
+        <input type="radio" name="tamanho" value="m" /> Média
+        <input type="radio" name="tamanho" value="p" /> Pequena <br />
+        Sabor
+        <select name="sabor" id="sabor">
+            <option value="calabresa">Calabresa</option>
+            <option value="napolitana">Napolitana</option>
+            <option value="queijo">Queijo</option>
+        </select>
+        <br />
+        Adicionais: Borda de Catupiry<input type="checkbox" name="adicional" value="bordaCatupiry" />
+        Coca-cola <input type="checkbox" name="adicional" value="coca" /> <br />
+        Entrega: <input type="date" name="entrega" value="data" /> <br />
+        Comentários: <br />
+        <textarea name="comentario" id="feedback" cols="50" rows="10"></textarea>
+        <br />
+        Entregar: <input type="submit" />
+    </form>
+</body>
+
+</html>
