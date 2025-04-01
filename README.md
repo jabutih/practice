@@ -1,2 +1,3 @@
-# folder
-### todos os códigos que eu criei até agora
+# Practices
+
+### many attempts of doing something 😔👌
