@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+</head>
+<body>
+
+    <div title="Caixa" id="caixa">
+        <div title="Descrição" id="titulo">
+            <h1>Conversor de Ienes (JPY)</h1>
+        </div>
+        <div title="Valor em Ienes (JPY)">
+            <input type="number" title="Ienes (JPY)" id="valorIene">
+            <img class="imagemMoeda" src="https://placehold.co/20" alt="Bandeira do país da moeda selecionada">
+        </div>
+        <div title="Valor em Reais ou Dólares (BRL/USD)">
+            <input type="number" title="Reais/Dólares (BRL/USD)" id="valorRD">
+            <img class="imagemMoeda" src="https://placehold.co/20" alt="Bandeira do país da moeda selecionada">
+        </div>
+        <div title="Seleção da Moeda"> <!--Colocar um icone do lado do input de numero BRL/USD que serve para mudar de moeda, como em sites atuais-->
+            <label for="seletorMoeda" id="trocarRD">Trocar moeda de conversão</label>
+                <select name="BRL/USD" id="seletorMoeda">
+                    <option value="brl">Real (BRL)</option>
+                    <option value="usd">Dólar (USD)</option>
+                </select>
+        </div>
+        <div title="Converter"> <!--Desenvolver conversão automática posteriormente-->
+            <button>Converter</button>
+        </div>
+        <div title="Resultado"> <!--Desenvolver resultado automático, usuário pode modificar os dois campos de input, alterando o valor do outro para a conversão desejada e vice-versa-->
+            <h3 id="textoResultado">Resultado:</h3> <span id="valorResultado"></span>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<style>
+    #caixa {
+        height: 25rem;
+        width: 35rem;
+        padding: 1rem 1rem;
+        border-radius: 50px;
+        background-color: rgb(46, 46, 46);
+        position: absolute;
+        inset: 0;
+        margin: auto;
+    }
+    #titulo {
+        color: #ededed;
+        font-family: "Comfortaa", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #textoResultado {
+        color: #ededed;
+        font-family: "Comfortaa", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+    }
+    #trocarRD {
+        color: #ededed;
+        font-family: "Comfortaa", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+    }
+    .imagemMoeda {
+        float: left;
+    }
+    body {
+        background-color: #2023b8;
+    }
+</style>
