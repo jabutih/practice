@@ -2,6 +2,7 @@ let iene = document.querySelector("#valorIene");
 let realDolar = document.querySelector("#valorRealDolar");
 let selecaoMoedas = document.querySelector("#clicavel");
 let opcoesMoedas = document.querySelector("#opcoesMoedas");
+let opcaoUSD = document.querySelector("#opcaoUSD");
 
 selecaoMoedas.addEventListener("click", () => {
     if (opcoesMoedas.className === "") {
@@ -14,6 +15,14 @@ selecaoMoedas.addEventListener("click", () => {
             opcoesMoedas.classList.remove("active");
         })
     }
+})
+
+opcaoUSD.addEventListener("mouseover", () => {
+    opcaoUSD.classList.add("hover");
+})
+
+opcaoUSD.addEventListener("mouseout", () => {
+    opcaoUSD.classList.remove("hover");
 })
 
 

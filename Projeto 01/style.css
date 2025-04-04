@@ -69,22 +69,30 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 #imagemMoedaEUA {
-    position: absolute;
-    left: 0;
     margin-left: 5px;
     width:50px;
 }
 
 #opcaoUSD {
     width: 7.2rem;
-    border: 1px solid;
+    height: 3rem;
     border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+#opcaoUSD.hover {
+    background-color: rgb(55, 55, 55);
+}
+
+#selecaoEUA {
+    text-decoration:none
 }
 
 .nomesMoedas {
     color: #ededed;
     font-size: 20px;
     margin-left: 60px;
+    margin-top: -40px;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -111,6 +119,7 @@ input[type="number"]::-webkit-inner-spin-button {
     height: 5px;
     bottom: 6.9rem;
     right: 3.1rem;
+    background-color: rgb(39, 39, 39);
     border-radius: 10px;
     opacity: 0;
     transition: 1s ease-in-out;
@@ -137,6 +146,7 @@ input[type="number"]::-webkit-inner-spin-button {
     position: absolute;
     left: -0.25rem;
     top: -0.35rem;
+    text-decoration:none
 }
 
 body {

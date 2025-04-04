@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v0.1">
-      <change afterPath="$PROJECT_DIR$/Projeto 01/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projeto 01/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projeto 01/teste.html" afterDir="false" />
+    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto 01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto 01/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto 01/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <workItem from="1743622773111" duration="1000" />
       <workItem from="1743783488249" duration="6702000" />
       <workItem from="1743790287692" duration="151000" />
-      <workItem from="1743790453061" duration="6916000" />
+      <workItem from="1743790453061" duration="8191000" />
     </task>
     <task id="LOCAL-00001" summary="Add random commit">
       <option name="closed" value="true" />
@@ -97,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743558925906</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v1">
+      <option name="closed" value="true" />
+      <created>1743798715169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743798715169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add random commit" />
     <MESSAGE value="v0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.1" />
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
   </component>
 </project>
