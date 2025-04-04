@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Código</title>
+</head>
+<body>
+
+<label for="Iene">Ienes</label>
+
+<input type="number" inputmode="decimal" pattern="([0-9]{1,3}).([0-9]{1,3})" step="0.01" id="Iene">
+<br>
+<label for="Real">Reais</label>
+
+<input type="number" inputmode="decimal" pattern="([0-9]{1,3}).([0-9]{1,3})" step="0.01" id="Real">
+
+</body>
+</html>
+
+<script>
+
+    let ienes = document.querySelector('#Iene');
+    let reais = document.querySelector('#Real');
+    let ieneR = 0.04;
+    let realI = 25;
+
+    ienes.addEventListener("input", converterReal);
+    reais.addEventListener("input", converterIene);
+
+    function converterReal() {
+        const valor1 = parseFloat(ienes.value);
+        document.getElementById("Real").value = (valor1 * ieneR).toFixed(2);
+    }
+    function converterIene() {
+        const valor2 = parseFloat(reais.value);
+        document.getElementById("Iene").value = (valor2 * realI).toFixed(2);
+    }
+
+</script>

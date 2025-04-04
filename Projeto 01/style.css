@@ -1,0 +1,144 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#caixa {
+    height: 25rem;
+    width: 35rem;
+    padding: 1rem 1rem;
+    border-radius: 50px;
+    background-color: rgb(46, 46, 46);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+#caixaConversao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    color: #ededed;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixaValorIene {
+    position: absolute;
+    top: 10em;
+}
+
+#caixaValorRealDolar {
+    position: absolute;
+    bottom: 7em;
+}
+
+#valorIene {
+    width: 20rem;
+    height: 2rem;
+    -moz-appearance: textfield;
+    background-color: #ededed;
+    border: 1px solid #303030;
+    border-radius: 25px;
+    outline: 0;
+    padding: 10px;
+}
+
+#valorRealDolar {
+    width: 20rem;
+    height: 2rem;
+    -moz-appearance: textfield;
+    background-color: #ededed;
+    border: 1px solid #303030;
+    border-radius: 25px;
+    outline: 0;
+    padding: 10px;
+}
+
+.imagemMoeda {
+    float: right;
+    width:56px;
+    margin-left: 15px;
+}
+
+#imagemMoedaEUA {
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+    width:50px;
+}
+
+#opcaoUSD {
+    width: 7.2rem;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.nomesMoedas {
+    color: #ededed;
+    font-size: 20px;
+    margin-left: 60px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+#selecaoMoeda {
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -2.5rem;
+    top: 0.6rem;
+    border: 5px solid gray;
+    border-left: none;
+    border-top: none;
+}
+
+#opcoesMoedas {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 5px;
+    bottom: 6.9rem;
+    right: 3.1rem;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    user-select: none;
+    overflow: hidden;
+}
+
+#opcoesMoedas.active {
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    bottom: 0.3rem;
+    right: 2.5rem;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    opacity: 1;
+}
+
+#clicavel {
+    height: 2.56rem;
+    width: 2.3rem;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -0.25rem;
+    top: -0.35rem;
+}
+
+body {
+    background-color: #2023b8;
+}
