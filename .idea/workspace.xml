@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v1.2">
+    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v1.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto 01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto 01/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto 01/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,7 +77,7 @@
       <workItem from="1743622773111" duration="1000" />
       <workItem from="1743783488249" duration="6702000" />
       <workItem from="1743790287692" duration="151000" />
-      <workItem from="1743790453061" duration="13291000" />
+      <workItem from="1743790453061" duration="16029000" />
     </task>
     <task id="LOCAL-00001" summary="Add random commit">
       <option name="closed" value="true" />
@@ -120,11 +119,30 @@
       <option name="project" value="LOCAL" />
       <updated>1743800777896</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v1.3">
+      <option name="closed" value="true" />
+      <created>1743805144428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743805144428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add random commit" />
@@ -132,6 +150,7 @@
     <MESSAGE value="v1" />
     <MESSAGE value="v1.1" />
     <MESSAGE value="v1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.2" />
+    <MESSAGE value="v1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3" />
   </component>
 </project>

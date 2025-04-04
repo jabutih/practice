@@ -1,43 +1,74 @@
-let iene = document.querySelector("#valorIene");
-let realDolar = document.querySelector("#valorRealDolar");
-let selecaoClicavel = document.querySelector("#clicavel");
-let selecaoMoedas = document.querySelector("#selecaoMoeda");
-let opcoesMoedas = document.querySelector("#opcoesMoedas");
-let opcaoUSD = document.querySelector("#opcaoUSD");
+document.addEventListener("DOMContentLoaded", function () {
 
-setTimeout(function(){
-    document.body.className="";
-},500);
+    let iene = document.querySelector("#valorIene");
+    let realDolar = document.querySelector("#valorRealDolar");
+    let selecaoClicavel = document.querySelector("#clicavel");
+    let selecaoMoedas = document.querySelector("#selecaoMoeda");
+    let opcoesMoedas = document.querySelector("#opcoesMoedas");
+    let opcaoUSD = document.querySelector("#opcaoUSD");
 
-function isNumberKey(evt) {
-    if (evt.ctrlKey && (evt.key === 'a' || evt.key === 'A')) {
-        return true;
+    setTimeout(function(){
+        document.body.className="";
+    },500);
+
+    iene.addEventListener("focusout", formatarMoeda);
+    realDolar.addEventListener("focusout", formatarMoeda);
+    iene.addEventListener("focus", desformatarMoeda);
+    realDolar.addEventListener("focus", desformatarMoeda);
+    iene.addEventListener("keypress", validarNumero);
+    realDolar.addEventListener("keypress", validarNumero);
+
+    function validarNumero(e) {
+        const charCode = e.which ? e.which : e.keyCode;
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            e.preventDefault();
+        }
     }
-    let charCode = (evt.which) ? evt.which : evt.keyCode
-    return !(charCode > 31 && (charCode < 48 || charCode > 57));
-}
 
-selecaoClicavel.addEventListener("click", () => {
-    if (opcoesMoedas.className === "") {
-        selecaoClicavel.addEventListener("click", () => {
-            opcoesMoedas.classList.add("active");
-            selecaoMoedas.classList.add("active");
-        })
+    function formatarMoeda(e) {
+        const input = e.target;
+        let valor = input.value.replace(/\D/g, '');
+
+        if (valor === '') {
+            input.value = '';
+            return;
+        }
+
+        const numero = parseFloat(valor) / 100;
+        input.value = numero.toLocaleString('pt-BR', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
     }
-    if (opcoesMoedas.className === "active") {
-        selecaoClicavel.addEventListener("click", () => {
-            opcoesMoedas.classList.remove("active");
-            selecaoMoedas.classList.remove("active");
-        })
+
+    function desformatarMoeda(e) {
+        const input = e.target;
+        input.value = input.value.replace(/\D/g, '');
     }
-})
 
-opcaoUSD.addEventListener("mouseover", () => {
-    opcaoUSD.classList.add("hover");
-})
+    selecaoClicavel.addEventListener("click", () => {
+        if (opcoesMoedas.className === "") {
+            selecaoClicavel.addEventListener("click", () => {
+                opcoesMoedas.classList.add("active");
+                selecaoMoedas.classList.add("active");
+            })
+        }
+        if (opcoesMoedas.className === "active") {
+            selecaoClicavel.addEventListener("click", () => {
+                opcoesMoedas.classList.remove("active");
+                selecaoMoedas.classList.remove("active");
+            })
+        }
+    })
 
-opcaoUSD.addEventListener("mouseout", () => {
-    opcaoUSD.classList.remove("hover");
+    opcaoUSD.addEventListener("mouseover", () => {
+        opcaoUSD.classList.add("hover");
+    })
+
+    opcaoUSD.addEventListener("mouseout", () => {
+        opcaoUSD.classList.remove("hover");
+    })
+
 })
 
 /*
