@@ -3,6 +3,11 @@ input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
+body.preload *{
+    animation-duration: 0s !important;
+    -webkit-animation-duration: 0s !important;
+    transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;}
+
 #caixa {
     height: 25rem;
     width: 35rem;
@@ -49,7 +54,11 @@ input[type="number"]::-webkit-inner-spin-button {
     border-radius: 25px;
     outline: 0;
     padding: 10px;
+    font-size: large;
+    font-weight: bold;
 }
+
+/* Transformar em uma classe se for preciso */
 
 #valorRealDolar {
     width: 20rem;
@@ -60,6 +69,8 @@ input[type="number"]::-webkit-inner-spin-button {
     border-radius: 25px;
     outline: 0;
     padding: 10px;
+    font-size: large;
+    font-weight: bold;
 }
 
 .imagemMoeda {

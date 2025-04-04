@@ -5,6 +5,18 @@ let selecaoMoedas = document.querySelector("#selecaoMoeda");
 let opcoesMoedas = document.querySelector("#opcoesMoedas");
 let opcaoUSD = document.querySelector("#opcaoUSD");
 
+setTimeout(function(){
+    document.body.className="";
+},500);
+
+function isNumberKey(evt) {
+    if (evt.ctrlKey && (evt.key === 'a' || evt.key === 'A')) {
+        return true;
+    }
+    let charCode = (evt.which) ? evt.which : evt.keyCode
+    return !(charCode > 31 && (charCode < 48 || charCode > 57));
+}
+
 selecaoClicavel.addEventListener("click", () => {
     if (opcoesMoedas.className === "") {
         selecaoClicavel.addEventListener("click", () => {
@@ -27,10 +39,6 @@ opcaoUSD.addEventListener("mouseover", () => {
 opcaoUSD.addEventListener("mouseout", () => {
     opcaoUSD.classList.remove("hover");
 })
-
-
-
-
 
 /*
     let ienes = document.querySelector('#Iene');

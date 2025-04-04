@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor</title>
 </head>
-<body>
+<body class="preload">
 
     <div title="Caixa" id="caixa">
         <div title="Descrição" id="titulo">
             <h1>Conversor de Ienes (JPY)</h1>
         </div>
-        <div title="CaixaConversão" id="caixaConversao">
+        <div title="Caixa Conversão" id="caixaConversao">
             <div title="Valor em Ienes (JPY)" id="caixaValorIene">
-                <input type="number" title="Ienes (JPY)" id="valorIene">
+                <input type="number" title="Ienes (JPY)" id="valorIene" onkeydown="return isNumberKey(event)">
                 <img class="imagemMoeda" src="japan.svg" alt="Bandeira do Japão">
             </div>
             <div title="Valor em Reais ou Dólares (BRL/USD)" id="caixaValorRealDolar">
-                <input type="number" title="Reais/Dólares (BRL/USD)" id="valorRealDolar">
+                <input type="number" title="Reais/Dólares (BRL/USD)" id="valorRealDolar" onkeydown="return isNumberKey(event)">
                 <img class="imagemMoeda" src="brazil.svg" alt="Bandeira do Brasil">
                 <div title="Seleção da Moeda" id="selecaoMoeda">
                     <a href="#" id="clicavel" title=""></a>
@@ -30,7 +30,7 @@
                         <h1 title="Moeda dos EUA" class="nomesMoedas">USD</h1>
                     </div>
                 </a>
-            </div> <!-- Adicionar caixa com interatividade para mudar de currency -->
+            </div> <!-- Adicionar caixa com interatividade para mudar de moeda corrente -->
         </div>
     </div>
 
