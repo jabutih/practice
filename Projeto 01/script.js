@@ -1,18 +1,21 @@
 let iene = document.querySelector("#valorIene");
 let realDolar = document.querySelector("#valorRealDolar");
-let selecaoMoedas = document.querySelector("#clicavel");
+let selecaoClicavel = document.querySelector("#clicavel");
+let selecaoMoedas = document.querySelector("#selecaoMoeda");
 let opcoesMoedas = document.querySelector("#opcoesMoedas");
 let opcaoUSD = document.querySelector("#opcaoUSD");
 
-selecaoMoedas.addEventListener("click", () => {
+selecaoClicavel.addEventListener("click", () => {
     if (opcoesMoedas.className === "") {
-        selecaoMoedas.addEventListener("click", () => {
+        selecaoClicavel.addEventListener("click", () => {
             opcoesMoedas.classList.add("active");
+            selecaoMoedas.classList.add("active");
         })
     }
     if (opcoesMoedas.className === "active") {
-        selecaoMoedas.addEventListener("click", () => {
+        selecaoClicavel.addEventListener("click", () => {
             opcoesMoedas.classList.remove("active");
+            selecaoMoedas.classList.remove("active");
         })
     }
 })
