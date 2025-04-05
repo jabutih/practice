@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    setTimeout(function(){
+        document.body.className="";
+    },500);
+
     let iene = document.querySelector("#valorIene");
     let realDolar = document.querySelector("#valorRealDolar");
     let selecaoClicavel = document.querySelector("#clicavel");
@@ -7,9 +11,20 @@ document.addEventListener("DOMContentLoaded", function () {
     let opcoesMoedas = document.querySelector("#opcoesMoedas");
     let opcaoUSD = document.querySelector("#opcaoUSD");
 
-    setTimeout(function(){
-        document.body.className="";
-    },500);
+    const ieneRealC = 0.037;
+    const realIeneC = 27;
+
+    iene.addEventListener("input", converterReal);
+    realDolar.addEventListener("input", converterIene);
+
+    function converterReal() {
+        const valorIene = parseFloat(iene.value);
+        document.getElementById("valorRealDolar").value = (valorIene * ieneRealC / 100).toFixed(2);
+    }
+    function converterIene() {
+        const valorReal = parseFloat(realDolar.value);
+        document.getElementById("valorIene").value = (valorReal * realIeneC / 100).toFixed(2);
+    }
 
     iene.addEventListener("focusout", formatarMoeda);
     realDolar.addEventListener("focusout", formatarMoeda);
@@ -70,22 +85,3 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 
 })
-
-/*
-    let ienes = document.querySelector('#Iene');
-    let reais = document.querySelector('#Real');
-    let ieneR = 0.04;
-    let realI = 25;
-
-    ienes.addEventListener("input", converterReal);
-    reais.addEventListener("input", converterIene);
-
-    function converterReal() {
-        const valor1 = parseFloat(ienes.value);
-        document.getElementById("Real").value = (valor1 * ieneR).toFixed(2);
-    }
-    function converterIene() {
-        const valor2 = parseFloat(reais.value);
-        document.getElementById("Iene").value = (valor2 * realI).toFixed(2);
-    }
-*/
