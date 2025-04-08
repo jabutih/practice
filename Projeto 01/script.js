@@ -14,16 +14,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const ieneRealC = 0.037;
     const realIeneC = 27;
 
-    iene.addEventListener("input", converterReal);
-    realDolar.addEventListener("input", converterIene);
+    iene.addEventListener("input", rConverterReal);
+    realDolar.addEventListener("input", rConverterIene);
 
-    function converterReal() {
-        const valorIene = parseFloat(iene.value);
+    function rConverterReal() {
+        const valorIene = parseFloat(iene.value) || 0;
         document.getElementById("valorRealDolar").value = (valorIene * ieneRealC / 100).toFixed(2);
     }
-    function converterIene() {
-        const valorReal = parseFloat(realDolar.value);
-        document.getElementById("valorIene").value = (valorReal * realIeneC / 100).toFixed(2);
+    function rConverterIene() {
+        const valorRealDolar = parseFloat(realDolar.value) || 0;
+        document.getElementById("valorIene").value = (valorRealDolar * realIeneC / 100).toFixed(2);
     }
 
     iene.addEventListener("focusout", formatarMoeda);
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let valor = input.value.replace(/\D/g, '');
 
         if (valor === '') {
-            input.value = '';
+            input.value = '0.00';
             return;
         }
 
@@ -63,16 +63,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     selecaoClicavel.addEventListener("click", () => {
         if (opcoesMoedas.className === "") {
-            selecaoClicavel.addEventListener("click", () => {
                 opcoesMoedas.classList.add("active");
                 selecaoMoedas.classList.add("active");
-            })
         }
-        if (opcoesMoedas.className === "active") {
-            selecaoClicavel.addEventListener("click", () => {
+        else if (opcoesMoedas.className === "active") {
                 opcoesMoedas.classList.remove("active");
                 selecaoMoedas.classList.remove("active");
-            })
         }
     })
 
@@ -83,5 +79,49 @@ document.addEventListener("DOMContentLoaded", function () {
     opcaoUSD.addEventListener("mouseout", () => {
         opcaoUSD.classList.remove("hover");
     })
+
+    /*
+
+    let selecaoEUA = document.querySelector("#selecaoEUA");
+    let imagemMoedaBrasil = document.querySelector("#imagemMoedaBrasil")
+    let imagemMoedaEUA = document.querySelector("#imagemMoedaEUA");
+    let nomesMoedas = document.querySelector(".nomesMoedas");
+    let emUSD = false;
+
+    selecaoEUA.addEventListener("click", mudarMoeda)
+
+    function mudarMoeda() {
+        if (emUSD !== true) {
+            imagemMoedaBrasil.src="united-states.svg";
+            imagemMoedaEUA.src="brazil.svg";
+            nomesMoedas.innerHTML="BRL";
+            emUSD = true
+        }
+        else if (emUSD === true) {
+            imagemMoedaBrasil.src="brazil.svg";
+            imagemMoedaEUA.src="united-states.svg";
+            nomesMoedas.innerHTML="USD";
+            emUSD = false;
+        }
+    }
+
+    const ieneDolarC = 0.0068;
+    const dolarIeneC = 146.99;
+
+    while (emUSD === true) {
+        iene.addEventListener("input", dConverterDolar);
+        realDolar.addEventListener("input", dConverterIene);
+
+        function dConverterDolar() {
+            const valorIene = parseFloat(iene.value) || 0;
+            document.getElementById("valorRealDolar").value = (valorIene * ieneDolarC / 100).toFixed(2);
+        }
+        function dConverterIene() {
+            const valorRealDolar = parseFloat(realDolar.value) || 0;
+            document.getElementById("valorIene").value = (valorRealDolar * dolarIeneC / 100).toFixed(2);
+        }
+    }
+
+    */
 
 })
