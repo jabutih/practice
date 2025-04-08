@@ -1,0 +1,72 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3ad1d8f3-d869-4b96-b642-a749e25e1a8c\" name=\"Changes\" comment=\"v1.5\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Projeto 01/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Projeto 01/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Projeto 01/script.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Projeto 01/script.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2v9GnXSClVjM4jMPDDaG6VPdejr\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3ad1d8f3-d869-4b96-b642-a749e25e1a8c\" name=\"Changes\" comment=\"\" />\r\n      <created>1743550043929</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1743550043929</updated>\r\n      <workItem from=\"1743550045178\" duration=\"2800000\" />\r\n      <workItem from=\"1743555565473\" duration=\"2992000\" />\r\n      <workItem from=\"1743558614641\" duration=\"315000\" />\r\n      <workItem from=\"1743603931278\" duration=\"413000\" />\r\n      <workItem from=\"1743604359227\" duration=\"5270000\" />\r\n      <workItem from=\"1743622773111\" duration=\"1000\" />\r\n      <workItem from=\"1743783488249\" duration=\"6702000\" />\r\n      <workItem from=\"1743790287692\" duration=\"151000\" />\r\n      <workItem from=\"1743790453061\" duration=\"17342000\" />\r\n      <workItem from=\"1743869418583\" duration=\"6127000\" />\r\n      <workItem from=\"1744122430078\" duration=\"6191000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Add random commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743550192694</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743550192698</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"v0.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743558925906</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743558925906</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"v1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743798715169</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743798715169</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"v1.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743800010966</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743800010966</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"v1.2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743800777896</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743800777896</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"v1.3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743805144428</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743805144428</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"v1.4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743807900612</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743807900612</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"v1.5\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743882479007</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743882479007</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Add random commit\" />\r\n    <MESSAGE value=\"v0.1\" />\r\n    <MESSAGE value=\"v1\" />\r\n    <MESSAGE value=\"v1.1\" />\r\n    <MESSAGE value=\"v1.2\" />\r\n    <MESSAGE value=\"v1.3\" />\r\n    <MESSAGE value=\"v1.4\" />\r\n    <MESSAGE value=\"v1.5\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"v1.5\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3730c13873e7cdf878c6f629afb3ac8eef32e58b)
++++ b/.idea/workspace.xml	(date 1744129423710)
+@@ -4,11 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v1.5">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Projeto 01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Projeto 01/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/script.js" afterDir="false" />
+-    </list>
++    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v1.6" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -26,6 +22,12 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/jabutih/practice",
++    "accountId": "a6c3e2cc-fafc-416d-a8f0-d44aa94938fb"
++  }
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;customColor&quot;: &quot;&quot;,
+   &quot;associatedIndex&quot;: 8
+@@ -79,7 +81,7 @@
+       <workItem from="1743790287692" duration="151000" />
+       <workItem from="1743790453061" duration="17342000" />
+       <workItem from="1743869418583" duration="6127000" />
+-      <workItem from="1744122430078" duration="6191000" />
++      <workItem from="1744122430078" duration="6952000" />
+     </task>
+     <task id="LOCAL-00001" summary="Add random commit">
+       <option name="closed" value="true" />
+@@ -145,7 +147,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1743882479007</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="v1.6">
++      <option name="closed" value="true" />
++      <created>1744129067527</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1744129067527</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -171,6 +181,7 @@
+     <MESSAGE value="v1.3" />
+     <MESSAGE value="v1.4" />
+     <MESSAGE value="v1.5" />
+-    <option name="LAST_COMMIT_MESSAGE" value="v1.5" />
++    <MESSAGE value="v1.6" />
++    <option name="LAST_COMMIT_MESSAGE" value="v1.6" />
+   </component>
+ </project>
+\ No newline at end of file
