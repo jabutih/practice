@@ -13,17 +13,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const ieneRealC = 0.037;
     const realIeneC = 27;
+    const ieneDolarC = 0.0068;
+    const dolarIeneC = 146.99;
 
-    iene.addEventListener("input", rConverterReal);
-    realDolar.addEventListener("input", rConverterIene);
+    let emUSD = false;
 
-    function rConverterReal() {
+    let selecaoEUA = document.querySelector("#selecaoEUA");
+    let imagemMoedaBrasil = document.querySelector("#imagemMoedaBrasil")
+    let imagemMoedaEUA = document.querySelector("#imagemMoedaEUA");
+    let nomesMoedas = document.querySelector(".nomesMoedas");
+
+    iene.addEventListener("input", ConverterReal);
+    realDolar.addEventListener("input", ConverterIene);
+
+    function ConverterReal() {
         const valorIene = parseFloat(iene.value) || 0;
-        document.getElementById("valorRealDolar").value = (valorIene * ieneRealC / 100).toFixed(2);
+        emUSD ? document.getElementById("valorRealDolar").value = (valorIene * ieneDolarC / 100).toFixed(2)
+            : document.getElementById("valorRealDolar").value = (valorIene * ieneRealC / 100).toFixed(2);
     }
-    function rConverterIene() {
+    function ConverterIene() {
         const valorRealDolar = parseFloat(realDolar.value) || 0;
-        document.getElementById("valorIene").value = (valorRealDolar * realIeneC / 100).toFixed(2);
+        emUSD ? document.getElementById("valorIene").value = (valorRealDolar * dolarIeneC / 100).toFixed(2)
+            : document.getElementById("valorIene").value = (valorRealDolar * realIeneC / 100).toFixed(2);
+    }
+
+    selecaoEUA.addEventListener("click", mudarMoeda)
+
+    function mudarMoeda() {
+        if (emUSD !== true) {
+            imagemMoedaBrasil.src="united-states.svg";
+            imagemMoedaEUA.src="brazil.svg";
+            nomesMoedas.innerHTML="BRL";
+            emUSD = true
+        }
+        else if (emUSD === true) {
+            imagemMoedaBrasil.src="brazil.svg";
+            imagemMoedaEUA.src="united-states.svg";
+            nomesMoedas.innerHTML="USD";
+            emUSD = false;
+        }
     }
 
     iene.addEventListener("focusout", formatarMoeda);
@@ -72,6 +100,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     })
 
+    selecaoClicavel.addEventListener("focusout", () => {
+        opcoesMoedas.classList.remove("active");
+        selecaoMoedas.classList.remove("active");
+    })
+
     opcaoUSD.addEventListener("mouseover", () => {
         opcaoUSD.classList.add("hover");
     })
@@ -79,49 +112,5 @@ document.addEventListener("DOMContentLoaded", function () {
     opcaoUSD.addEventListener("mouseout", () => {
         opcaoUSD.classList.remove("hover");
     })
-
-    /*
-
-    let selecaoEUA = document.querySelector("#selecaoEUA");
-    let imagemMoedaBrasil = document.querySelector("#imagemMoedaBrasil")
-    let imagemMoedaEUA = document.querySelector("#imagemMoedaEUA");
-    let nomesMoedas = document.querySelector(".nomesMoedas");
-    let emUSD = false;
-
-    selecaoEUA.addEventListener("click", mudarMoeda)
-
-    function mudarMoeda() {
-        if (emUSD !== true) {
-            imagemMoedaBrasil.src="united-states.svg";
-            imagemMoedaEUA.src="brazil.svg";
-            nomesMoedas.innerHTML="BRL";
-            emUSD = true
-        }
-        else if (emUSD === true) {
-            imagemMoedaBrasil.src="brazil.svg";
-            imagemMoedaEUA.src="united-states.svg";
-            nomesMoedas.innerHTML="USD";
-            emUSD = false;
-        }
-    }
-
-    const ieneDolarC = 0.0068;
-    const dolarIeneC = 146.99;
-
-    while (emUSD === true) {
-        iene.addEventListener("input", dConverterDolar);
-        realDolar.addEventListener("input", dConverterIene);
-
-        function dConverterDolar() {
-            const valorIene = parseFloat(iene.value) || 0;
-            document.getElementById("valorRealDolar").value = (valorIene * ieneDolarC / 100).toFixed(2);
-        }
-        function dConverterIene() {
-            const valorRealDolar = parseFloat(realDolar.value) || 0;
-            document.getElementById("valorIene").value = (valorRealDolar * dolarIeneC / 100).toFixed(2);
-        }
-    }
-
-    */
 
 })
