@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto 01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/index.html" afterDir="false" />
+    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v2f">
       <change beforePath="$PROJECT_DIR$/Projeto 01/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +98,7 @@
       <workItem from="1744122430078" duration="7291000" />
       <workItem from="1744148789932" duration="7056000" />
       <workItem from="1744200019192" duration="4793000" />
-      <workItem from="1744286515831" duration="1717000" />
+      <workItem from="1744286515831" duration="1788000" />
     </task>
     <task id="LOCAL-00001" summary="Add random commit">
       <option name="closed" value="true" />
@@ -190,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744152720435</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="v2f">
+      <option name="closed" value="true" />
+      <created>1744288268521</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744288268521</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +225,7 @@
     <MESSAGE value="v1.6" />
     <MESSAGE value="." />
     <MESSAGE value="v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2" />
+    <MESSAGE value="v2f" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2f" />
   </component>
 </project>

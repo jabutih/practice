@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let inputs = document.querySelectorAll(".formatar");
 
     inputs.forEach((input) => {
-        input.addEventListener("mouseout", formatarMoeda)
+        input.addEventListener("focusout", formatarMoeda)
     })
 
     iene.addEventListener("focus", desformatarMoeda);
