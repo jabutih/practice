@@ -54,8 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    iene.addEventListener("focusout", formatarMoeda);
-    realDolar.addEventListener("focusout", formatarMoeda);
+    let inputs = document.querySelectorAll(".formatar");
+
+    inputs.forEach((input) => {
+        input.addEventListener("mouseout", formatarMoeda)
+    })
+
     iene.addEventListener("focus", desformatarMoeda);
     realDolar.addEventListener("focus", desformatarMoeda);
     iene.addEventListener("keypress", validarNumero);

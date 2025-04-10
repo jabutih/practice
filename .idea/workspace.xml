@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v1.6">
+    <list default="true" id="3ad1d8f3-d869-4b96-b642-a749e25e1a8c" name="Changes" comment="v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto 01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto 01/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto 01/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,12 +38,12 @@
     &quot;assignee&quot;: &quot;jabutih&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jabutih/practice.git",
-    "accountId": "a6c3e2cc-fafc-416d-a8f0-d44aa94938fb"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jabutih/practice.git&quot;,
+    &quot;accountId&quot;: &quot;a6c3e2cc-fafc-416d-a8f0-d44aa94938fb&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -97,7 +98,9 @@
       <workItem from="1743790453061" duration="17342000" />
       <workItem from="1743869418583" duration="6127000" />
       <workItem from="1744122430078" duration="7291000" />
-      <workItem from="1744148789932" duration="3759000" />
+      <workItem from="1744148789932" duration="7056000" />
+      <workItem from="1744200019192" duration="4793000" />
+      <workItem from="1744286515831" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="Add random commit">
       <option name="closed" value="true" />
@@ -179,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744129754761</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="v2">
+      <option name="closed" value="true" />
+      <created>1744152720435</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744152720435</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +218,7 @@
     <MESSAGE value="v1.5" />
     <MESSAGE value="v1.6" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2" />
   </component>
 </project>
